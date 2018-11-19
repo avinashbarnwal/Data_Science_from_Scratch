@@ -1,2 +1,2 @@
-# Data_Science_from_Scratch with Python
+# Data Science from Scratch with Python
 
