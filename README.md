@@ -33,7 +33,7 @@ Random Forest  &nbsp;&nbsp;                C Breiman implementation &nbsp;&nbsp;
 Extremly Random Trees   &nbsp;&nbsp;       C+R                      &nbsp;&nbsp;                O(npn_trees)      O(npntrees)   
 Gradient Boosting       &nbsp;&nbsp;       C+R                      &nbsp;&nbsp;                O(npn_trees)      O(pntrees)  
 Linear Regression       &nbsp;&nbsp;       R                        &nbsp;&nbsp;                O(p^2n+p^3)       O(p)    
-SVM (Kernel)            &nbsp;&nbsp;       C+R                      &nbsp;&nbsp;                O(n^2p+n^3)       O(nsvp)  
+SVM (Kernel)            &nbsp;&nbsp;       C+R                      &nbsp;&nbsp;                O(n^2p+n^3)       O(n_{sv}p)  
 k-Nearest Neighbours (naive)  &nbsp;&nbsp; C+R                      &nbsp;&nbsp;                  −−              O(np)   
 Nearest centroid        &nbsp;&nbsp;       C                        &nbsp;&nbsp;                O(np)             O(p)  
 Neural Network          &nbsp;&nbsp;       C+R                      &nbsp;&nbsp;                  ?               O(pnl1+nl1nl2+...)  
