@@ -25,7 +25,7 @@ n_sv    - the number of support vectors and
 n_li    - the number of neurons at layer  i in a neural network, we have the following approximations.  
 
 
-**Algorithm**  &nbsp;&nbsp;   **Classification/Regression**   &nbsp;&nbsp;    **Training**  &nbsp;&nbsp; **Prediction**  
+**Algorithm**      &nbsp;&nbsp;   **Classification/Regression**   &nbsp;&nbsp;    **Training**  &nbsp;&nbsp; **Prediction**  
 Decision Tree  &nbsp;&nbsp;                C+R                &nbsp;&nbsp;                      O(n^2p)           O(p)  
 Random Forest  &nbsp;&nbsp;                C+R                &nbsp;&nbsp;                      O(n^2pn_trees)    O(pntrees)  
 Random Forest  &nbsp;&nbsp;                R Breiman implementation &nbsp;&nbsp;                O(n^2pn_trees)    O(pntrees)  
