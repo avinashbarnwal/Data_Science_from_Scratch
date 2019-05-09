@@ -13,3 +13,13 @@ Oracle
 Amazon  
 Microsoft  
 Google  
+
+
+**Computational Complexity of Supervised Learning**
+
+Notation -
+n       - the number of training sample, 
+p       - the number of features, 
+n_trees - the number of trees (for methods based on various trees), 
+n_sv    - the number of support vectors and 
+n_li    - the number of neurons at layer  i in a neural network, we have the following approximations.
