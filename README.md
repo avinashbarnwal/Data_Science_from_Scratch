@@ -25,22 +25,20 @@ n_sv    - the number of support vectors and
 n_li    - the number of neurons at layer  i in a neural network, we have the following approximations.  
 
 
-**Algorithm**      &nbsp;&nbsp;   **Classification/Regression**   &nbsp;&nbsp;    **Training**  &nbsp;&nbsp; **Prediction**  
-Decision Tree  &nbsp;&nbsp;                C+R                &nbsp;&nbsp;                      O(n^2p)           O(p)  
-Random Forest  &nbsp;&nbsp;                C+R                &nbsp;&nbsp;                      O(n^2pn_trees)    O(pntrees)  
-Random Forest  &nbsp;&nbsp;                R Breiman implementation &nbsp;&nbsp;                O(n^2pn_trees)    O(pntrees)  
-Random Forest  &nbsp;&nbsp;                C Breiman implementation &nbsp;&nbsp;                O(n^2√pn_trees)   O(pntrees)  
-Extremly Random Trees   &nbsp;&nbsp;       C+R                      &nbsp;&nbsp;                O(npn_trees)      O(npntrees)   
-Gradient Boosting       &nbsp;&nbsp;       C+R                      &nbsp;&nbsp;                O(npn_trees)      O(pntrees)  
-Linear Regression       &nbsp;&nbsp;       R                        &nbsp;&nbsp;                O(p^2n+p^3)       O(p)    
-SVM (Kernel)            &nbsp;&nbsp;       C+R                      &nbsp;&nbsp;                O(n^2p+n^3)       O(n_{sv}p)  
-k-Nearest Neighbours (naive)  &nbsp;&nbsp; C+R                      &nbsp;&nbsp;                  −−              O(np)   
-Nearest centroid        &nbsp;&nbsp;       C                        &nbsp;&nbsp;                O(np)             O(p)  
-Neural Network          &nbsp;&nbsp;       C+R                      &nbsp;&nbsp;                  ?               O(pnl1+nl1nl2+...)  
-Naive Bayes             &nbsp;&nbsp;       C                        &nbsp;&nbsp;                O(np)             O(p)  
-
- 
-
+| Algorithm                    | Classification/Regression | Training        | Prediction                  |
+|------------------------------|---------------------------|-----------------|-----------------------------|
+| Decision Tree                | C+R                       | O(n^2p)         | O(p)                        |
+| Random Forest                | C+R                       | O(n^2pn_trees)  | O(pntrees)                  |
+| Random Forest                | R Breiman implementation  | O(n^2pn_trees)  | O(pntrees)                  |
+| Random Forest                | C Breiman implementation  | O(n^2√pn_trees) | O(pntrees)                  |
+| Extremly Random Trees        | C+R                       | O(npn_trees)    | O(npntrees)                 |
+| Gradient Boosting            | C+R                       | O(npn_trees)    | O(pntrees)                  |
+| Linear Regression            | R                         | O(p^2n+p^3)     | O(p)                        |
+| SVM (Kernel)                 | C+R                       | O(n^2p+n^3)     | O(n_{sv}p)                  |
+| k-Nearest Neighbours (naive) | C+R                       | −−              | O(np)                       |
+| Nearest Centroid             | C                         | O(np)           | O(p)                        |
+| Neural Network               | C+R                       | ?               | O(pn_{l1}+n_{l1}n_{l2}+...) |
+| Naive Bayes                  | C                         | O(np)           | O(p)                        |
 
 
 
