@@ -41,7 +41,9 @@ n_li    - the number of neurons at layer  i in a neural network, we have the fol
 | Naive Bayes                  | C                         | O(np)                 | O(p)                        |
 
 
+**Business**
 
+- https://a16z.com/2015/09/23/16-more-metrics/
 
 
 
