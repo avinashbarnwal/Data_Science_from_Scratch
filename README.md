@@ -50,6 +50,7 @@ n_li    - the number of neurons at layer  i in a neural network, we have the fol
 **Imbalanced Data**
 
 - https://www.kaggle.com/c/ieee-fraud-detection/discussion/99982#latest-580685
+- http://www.chioka.in/differences-between-roc-auc-and-pr-auc/
 
 
 
