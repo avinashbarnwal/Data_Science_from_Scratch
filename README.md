@@ -45,13 +45,16 @@ n_li    - the number of neurons at layer  i in a neural network, we have the fol
 
 - https://a16z.com/2015/09/23/16-more-metrics/
 
+**Caliberation**
+- https://machinelearningmastery.com/calibrated-classification-model-in-scikit-learn/
 
+![Alt text](classification/caliberation_performance.png?raw=true "Title")
 
 **Imbalanced Data**
 
 - https://www.kaggle.com/c/ieee-fraud-detection/discussion/99982#latest-580685
 - http://www.chioka.in/differences-between-roc-auc-and-pr-auc/   
-- https://machinelearningmastery.com/calibrated-classification-model-in-scikit-learn/
+
 
 
 
