@@ -60,5 +60,7 @@ n_li    - the number of neurons at layer  i in a neural network, we have the fol
 - https://www.kaggle.com/c/bengaliai-cv19/discussion/136021
 
 
+**Label Smoothing**
+- https://towardsdatascience.com/what-is-label-smoothing-108debd7ef06
 
 
