@@ -57,6 +57,7 @@ n_li    - the number of neurons at layer  i in a neural network, we have the fol
 
 **Stacking**
 - https://www.kaggle.com/general/18793
+- https://www.kaggle.com/c/bengaliai-cv19/discussion/136021
 
 
 
